@@ -1,0 +1,38 @@
+.color_rojo{ background-color:lightcoral;}
+.color_amarillo{background-color: lemonchiffon;}
+.color_gris{background-color: grey;}
+.color_lila{background-color: blueviolet;}
+.color_blanco{background-color: azure;}
+
+@font-face {
+    font-family: transformer;
+    src: url(transfrm.ttf);
+}
+.trans{font-family:transformer;} 
+h2{color: #769790;padding: 0px 0px 0px 15px;}
+
+a{font-weight: bold ;}
+
+li{font-weight:bold;}
+
+#color_letra_rojo{color:red}
+#color_letra_morado{color:midnightblue}
+
+#menu_h{float:left;width:100%}
+#menu_h li{display:inline; margin:0;padding:10}
+#menu_h a { display:block;margin: 1px; padding:5px; text-decoration:none; color:#ff0000; background-color:#cfabff ; border-top-right-radius:10px; border-top-left-radius:10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px}
+#menu_h a:hover{color:#6c00f8; font-size: 1.2em; background-color:#cc7979;text-decoration:underline;}
+
+#menu_d{float:left;width:100%}
+#menu_d li{display:inline; margin:0;padding:10}
+#menu_d a { display:block;margin: 1px; padding:5px; text-decoration:none; color:#6c00f8; background-color:#cc7979; border-top-right-radius:10px; border-top-left-radius:10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px}
+#menu_d a:hover{color:#ff0000; font-size: 1.2em; background-color:#cfabff;text-decoration:underline;}
+
+
+.menu{float:left;width:100%}
+.menu li{display:inline; margin:0;padding:0}
+.menu a { display:block;margin: 1px; padding:5px; text-decoration:none; color:#1e275c; background-color:#d8d2d2 ; border-top-right-radius:10px; border-top-left-radius:10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px}
+.menu a:hover{color:rgb(138, 255, 255); font-size: 1.2em; background-color:#626066;text-decoration:underline;}
+
+#borde{border-style:  solid solid}
+#borde tr td{border-style:  solid solid}
